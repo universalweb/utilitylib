@@ -1,6 +1,6 @@
 {
-    "name": "@universalweb/acid",
-    "version": "3.0.78",
+	"name": "@universalweb/utilitylib",
+	"version": "1.0.0",
     "description": "Acidjs is a robust, modern, modular, & async focused Javascript utility library.",
     "keywords": [
         "Acid",
@@ -11,11 +11,11 @@
     ],
     "homepage": "https://acidjs.com",
     "bugs": {
-        "url": "https://github.com/universalweb/Acid/issues"
+		"url": "https://github.com/universalweb/utilitylib/issues"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/universalweb/Acid.git",
+		"url": "git+https://github.com/universalweb/utilitylib.git",
         "directory": "package"
     },
     "license": "ISC",
@@ -39,7 +39,7 @@
     "module": "./module/index.js",
     "browser": "./browser.js",
     "bin": {
-        "@universalweb/acid": "./index.js"
+		"@universalweb/utilitylib": "./index.js"
     },
     "publishConfig": {
 		"access": "public",
